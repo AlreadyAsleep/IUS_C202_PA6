@@ -1,7 +1,12 @@
 # IUS_C202_PA6
 Programming Assignment 6 from Dr. H's 202 class
 
+## Abstract
 
+
+The problem here is described as follows: Given a list of cities and the cost to traverse between each city, where one can traverse from any city to anyother city, find the most cost efficient route to visit each city once. This problem is commonly known as the [traveling salesman problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem.). In this specific assignment, the aim is to use commonly known as a [Dijkstra Approximation](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). An algorithm that finds the shortest path between nodes (cities in this case) by traveling to the closest node one is currently at each step. In effect, it ignores the overall cost of the journey and only takes into account the current leg of the trip. It can, and often does, miss the absolute most cost-efficient path through a graph; however, it is a brilliantly simple method and gets very close to the true shortest path.
+
+In this implementation, the data for the cost/distance between nodes is represented in a two dimensional matrix. Value[x, y] on the matrix represents the distance from x -> y. 
 
 
 
